@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: grey;
+}
+button {
+  vertical-align: top;
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 24px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 50px;
+
+}
+button:focus {
+  outline: none;
+}
+button:nth-child(1) {
+  background-color: #324;
+}
+button:nth-child(2) {
+  background-color: #334;
+}
+button:nth-child(3) {
+  background-color: #344;
+}
